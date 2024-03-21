@@ -11,8 +11,12 @@
         <button>SUBMIT</button>
     </form>
     <?php
-     $name =  $_GET['person'];
-     echo $name." smells like a fart";
+    //david and chrome
+    {
+    Karam smells like roses on the beach 
+    }
+     /*echo "Karam"
+     echo "doesn't do any work";*/;
     ?>
 </body>
 </html>
