@@ -6,17 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="GET">
-        <input type="text" name="person">
-        <button>SUBMIT</button>
-    </form>
     <?php
-    //david and chrome
-    {
-    Karam;
-    }
-     /*echo "Karam"
-     echo "doesn't do any work";*/;
+     //String 
+     $name= 'Karam smells';
+     //Interger
+     $name=10;
+     //Float
+     $name=8.5784
+
+     //BooLean
+
+     //Array
+     $names=array("Chad","Kara,","David");
+     echo $names['3']
     ?>
 </body>
 </html>
