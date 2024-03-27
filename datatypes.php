@@ -6,19 +6,33 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-     //String 
-     $name= 'Karam smells';
-     //Interger
-     $name=10;
-     //Float
-     $name=8.5784
-
-     //BooLean
-
-     //Array
-     $names=array("Chad","Kara,","David");
-     echo $names['3']
+   
+       
+  <?php
+  /*This gets something from the database
+  function(){
+    dksahoifasoifas
+  }*/
+ 
+ 
+?>
+  <?php
+    //String
+    $name = 'Coding is fun';
+ 
+    //Integer
+    $name = 19;
+ 
+    //Float
+    $name = 21.5784;
+ 
+    //Boolean
+   
+ 
+    //Array
+    $names = array("Daniel","Dennis","Michael");
+    echo $names['2'];
+ 
     ?>
 </body>
 </html>
