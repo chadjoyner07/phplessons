@@ -1,3 +1,7 @@
+<?php
+ session_start();
+?>
+
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.php">Navbar</a>
@@ -31,3 +35,16 @@
     </div>
   </div>
 </nav>
+<body>
+<?php
+    $_SESSION['username'] = "ChadJ4908";
+    echo $_SESSION['username'];
+
+    if (!isset($_SESSION['username'])){
+        echo "You are not logged in!";
+    } else {
+        echo "You are logged in!";
+    }
+
+    ?>
+</body>
