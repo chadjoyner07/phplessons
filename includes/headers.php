@@ -32,16 +32,20 @@
           <a class="nav-link" href="operators.php">Operators</a>
         </li>
       </ul>
+      <div>
+        <form action="includes/login.inc.php" metho="post">
+          <input type="text" name="mailuid" placeholder="Username/E-mail...">
+          <input type="password" name="pwd" placeholder="Password">
+          <button type="submit" name="login-sbumit">Login</button>
+        </form>
+        <a href="signup.php">Signup</a>
+        <form action="includes/logout.inc.php" metho="post">
+          <button type="submit" name="logout-sbumit">Logout</button>
+        </form>
+      </div>
       <h3>
       <?php
-    $_SESSION['username'] = "ChadJ4908-";
-    echo $_SESSION['username'];
-
-    if (!isset($_SESSION['username'])){
-        echo "You are not logged in!";
-    } else {
-        echo "You are logged in!";
-    }
+    
 
     ?>
     </h3>
